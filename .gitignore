@@ -1,0 +1,3 @@
+# Project exclude paths
+/clinikktv-api/target/
+/clinniktv-service/target/

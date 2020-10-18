@@ -1,0 +1,20 @@
+server:
+  port: 9090
+  servlet:
+    contextPath: /clinikk
+
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ClinikkTV
+    username: root
+    password: Rishabh@123
+  jpa:
+    hibernate:
+      ddl-auto: none
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    generate-ddl: false
+    show-sql: true
+  application:
+    name: ClinikkTV

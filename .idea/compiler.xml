@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="quora-api" />
+        <module name="clinikktv-service" />
+        <module name="clinikktv-api" />
+        <module name="quora-service" />
+        <module name="quora-db" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ClinikkTV" target="1.8" />
+      <module name="clinikktv-api" target="1.8" />
+      <module name="clinikktv-db" target="1.8" />
+      <module name="clinikktv-service" target="1.8" />
+      <module name="clinniktv-service" target="1.8" />
+      <module name="quora-api" target="1.8" />
+      <module name="quora-db" target="1.8" />
+      <module name="quora-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="clinikktv-api" options="-parameters" />
+      <module name="clinikktv-db" options="-parameters" />
+      <module name="clinikktv-service" options="-parameters" />
+      <module name="clinniktv-service" options="-parameters" />
+      <module name="quora-api" options="-parameters" />
+      <module name="quora-db" options="-parameters" />
+      <module name="quora-service" options="-parameters" />
+    </option>
+  </component>
+</project>
